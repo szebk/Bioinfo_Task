@@ -9,22 +9,21 @@ Write me a program in python that will take a TSV (tab-delimited text file) as i
 python programming language
 
 import sys
-
 def extract_sort_print(filename):
     with open(filename, "r") as f:
         lines = f.readlines()
-        
-    # remove header if it exists
+       
+   # remove header if it exists
     if len(lines) > 0 and "\t" in lines[0]:
         lines = lines[1:]
         
-    # extract the last column
+   # extract the last column
     last_column = [line.strip().split("\t")[-1] for line in lines]
     
-    # sort the values
+   # sort the values
     last_column.sort()
     
-    # print the values
+   # print the values
     for value in last_column:
         print(value)
 
