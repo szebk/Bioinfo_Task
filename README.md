@@ -31,8 +31,8 @@ def extract_sort_print(filename):
 if __name__ == "__main__":
     filename = sys.argv[1]
     extract_sort_print(filename)
+
 We can run the program by passing the filename as an argument:
 
-python
-Copy code
+
 $ python program.py input.tsv
