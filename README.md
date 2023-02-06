@@ -26,4 +26,5 @@ print_values function: This function prints each value in the sorted last column
 
 The if __name__ == '__main__' block: This block is executed only when the program is run as the main program and not imported as a module. It sets the file name to be expmat.tsv, calls the read_tsv function, stores the result in a variable named data, calls the extract_last_column function and stores the result in a variable named last_column, calls the remove_header function to remove the header if present, calls the sort_values function to sort the values, and finally calls the print_values function to print the sorted values in the terminal.
 
-I hope this program is helpful for your bioinformatics tasks. I would like to extend my sincere gratitude for the opportunity to work on this project. Additionally, I am highly interested in joining your lab to further my knowledge and skills in the field of bioinformatics.
+I hope this program is helpful for this bioinformatics tasks. I would like to extend my sincere gratitude for the opportunity to work on this task. Additionally, I am highly interested in joining your lab to further my knowledge and skills in the field of bioinformatics.
+
