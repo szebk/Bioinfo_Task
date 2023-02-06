@@ -1,12 +1,16 @@
 # Bioinfo_Task_TSV
-Write me a program in python that will take a TSV (tab-delimited text file) as input and to the following: 
+
+"Question"
+
+Write a program in python that will take a TSV (tab-delimited text file) as input and to the following: 
 1. extract the last column
 2. remove any header if it is there 
 3. sort the value 
 4. print in the terminal
 
+"Answer"
 
-python programming language
+#Using python programming language
 
 This program reads a tab-separated values (TSV) file named expmat.tsv, performs the following operations on its content, and outputs the result in the terminal:
 
